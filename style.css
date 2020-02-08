@@ -1,0 +1,128 @@
+/*General styles
+========================*/
+body {
+    font-family: 'Solway', sans-serif;
+    font-size: 14px;
+
+    margin: 0;
+
+    color: #fff;
+    background-color: rgb(230, 230, 230);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-family: inherit;
+
+    display: inline-block;
+
+    padding: 5px;
+
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+    background: none;
+    background-color: rgb(240, 240, 240);
+}
+
+button {
+    font-family: inherit;
+
+    display: inline-block;
+
+    padding: 5px;
+
+    cursor: pointer;
+
+    border: 0;
+    outline: none;
+    background: none;
+}
+
+/*Buttons
+========================*/
+.btn {
+    font-weight: 400;
+
+    min-width: 80px;
+
+    cursor: pointer;
+    transition: background-color .1s linear;
+    vertical-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 2px;
+    background-color: rgb(229, 9, 20);
+}
+
+.btn:hover {
+    background-color: rgb(255, 25, 35);
+}
+
+/*Container
+========================*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*Header
+========================*/
+.header {
+    padding: 15px;
+
+    background-color: rgb(40, 40, 40);
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__signInUp {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__sign-up {
+    margin: 0 15px;
+
+    transition: color .1s linear;
+
+    color: #fff;
+}
+
+.header__sign-up:hover {
+    color: #c7c7c7;
+}
+
+.nav__item {
+    transition: color .1s linear;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.nav__item:hover {
+    color: #c7c7c7;
+}
+
+
