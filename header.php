@@ -13,6 +13,7 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
+                
                 <nav class="header__nav">
                     <a class="nav__item" href="index.php">Home</a>
                 </nav>
@@ -29,9 +30,9 @@
                     <form action="includes/logout.inc.php" method="post">
                         <button class="btn" name="logout_submit">Log Out</button>
                     </form>
-                </div>
-            </div>
-        </div>
+                </div> <!-- /.header__signInUp -->
+            </div> <!-- /.header__inner -->
+        </div> <!-- /.container -->
     </header>
 </body>
 

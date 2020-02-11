@@ -20,6 +20,15 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 input {
     font-family: inherit;
 
@@ -66,7 +75,7 @@ button {
 }
 
 .btn:hover {
-    background-color: rgb(255, 25, 35);
+    background-color: rgb(240, 20, 25);
 }
 
 /*Container
@@ -83,7 +92,7 @@ button {
 .header {
     padding: 15px;
 
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(45, 45, 45);
 }
 
 .header__inner {
@@ -125,4 +134,6 @@ button {
     color: #c7c7c7;
 }
 
+/*Wrapper
+========================*/
 
